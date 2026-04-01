@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interview Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Interview Completed</h1>
+
+        <div class="result-box">
+            <p><strong>👤 Name:</strong> {{ name }}</p>
+            <p><strong>🧠 Domain:</strong> {{ domain }}</p>
+            <p><strong>📊 Score:</strong> {{ score }} / {{ max_score }}</p>
+            <p><strong>📈 Percentage:</strong> {{ percentage }}%</p>
+            <p><strong>🤖 AI Feedback:</strong> {{ final_feedback }}</p>
+        </div>
+
+        <h2>📄 Answer Summary</h2>
+
+        {% for item in answers %}
+        <div class="answer-card">
+            <p><strong>Q:</strong> {{ item.question }}</p>
+            <p><strong>Your Answer:</strong> {{ item.answer }}</p>
+            <p><strong>Score:</strong> {{ item.score }}/8</p>
+            <p><strong>Feedback:</strong> {{ item.feedback }}</p>
+        </div>
+        {% endfor %}
+
+        <a href="{{ url_for('restart') }}" class="btn">🔁 Take Another Interview</a>
+    </div>
+</body>
+</html>
