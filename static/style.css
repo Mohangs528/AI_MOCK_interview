@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #38bdf8;
+}
+
+p {
+    font-size: 18px;
+}
+
+input, select, textarea {
+    width: 90%;
+    padding: 14px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+button, .btn {
+    display: inline-block;
+    width: 95%;
+    padding: 14px;
+    margin-top: 15px;
+    background: #38bdf8;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover, .btn:hover {
+    background: #0ea5e9;
+    color: white;
+}
+
+.question-box, .result-box, .answer-card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.error {
+    color: #f87171;
+    font-weight: bold;
+    margin-top: 10px;
+}
