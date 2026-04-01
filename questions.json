@@ -1,0 +1,44 @@
+{
+  "Python": [
+    {
+      "question": "What is Python?",
+      "keywords": ["programming", "language", "interpreted", "high-level"]
+    },
+    {
+      "question": "What is a list in Python?",
+      "keywords": ["collection", "ordered", "mutable", "items"]
+    },
+    {
+      "question": "What is a function?",
+      "keywords": ["block", "code", "reusable", "task"]
+    }
+  ],
+  "HR": [
+    {
+      "question": "Tell me about yourself.",
+      "keywords": ["student", "skills", "background", "goals"]
+    },
+    {
+      "question": "Why should we hire you?",
+      "keywords": ["skills", "hardworking", "team", "learn"]
+    },
+    {
+      "question": "What are your strengths?",
+      "keywords": ["communication", "problem-solving", "leadership", "adaptability"]
+    }
+  ],
+  "DBMS": [
+    {
+      "question": "What is DBMS?",
+      "keywords": ["database", "management", "system", "data"]
+    },
+    {
+      "question": "What is a primary key?",
+      "keywords": ["unique", "identify", "record", "table"]
+    },
+    {
+      "question": "What is normalization?",
+      "keywords": ["redundancy", "organize", "database", "efficiency"]
+    }
+  ]
+}
